@@ -21,6 +21,7 @@ dump_policy = ''
 file_name = ''
 output_file = ''
 protocol = ''
+datatrace = ''
 
 
 class General(object):
@@ -279,6 +280,7 @@ class General(object):
         global file_name
         global output_file
         global protocol
+        global datatrace
 
         for opt, arg in opts:
           
@@ -290,7 +292,9 @@ class General(object):
         
             elif opt in ("-p", "--protocol"):
                 protocol = arg
-        
+
+            elif opt in ("-d", "--datatrace"):
+                datatrace = arg
         
         if args[0].isdigit():
             memory_limit = True
