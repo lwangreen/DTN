@@ -1,0 +1,10 @@
+Epidemic
+Database Infocom:
+File: packetbuffer2.txt
+Average delay: 70740.15545851528
+attack prob: 0
+Memory limit: True Memory buffer: 1000000 Dump_policy: F
+Total number of packets: 2656
+Success: 1145 Copies: 42825 transmission: 43970 Drop: 44336 Ratio: 0.4310993975903614
+Overhead: 16.554969879518072
+
